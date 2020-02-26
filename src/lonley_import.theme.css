@@ -21,6 +21,39 @@
  *  SOFTWARE.
  */
 
+
+/* Main Config */
+    :root {
+        /* Non Transparent Accent Color */
+            --accent-color: rgb(106, 139, 230);
+        /* Transparent Accent Color */
+            --accent-color-transparent: rgba(106, 139, 230, 0.20);
+        --xbox-green: rgb(14, 122, 13);
+        --HSL-size: 35px; /* Size of Server Icons */
+        --HSL-spacing: 10px; /* Space between servers */
+        --HSL-roundness: 5px; /* Server non hovered and selected */
+        --HSL-roundnessHover: 20%; /* Server hovered */
+        --image-blur-amount: 10px; /*Set to 0 to disable */
+        --button-jiggle-time: 500ms; /*Set to 0 to disable */
+        --status-brightness: .6; /* Set to 1 for full brightness */
+        --settings-width: 60%;
+        --settings-height: 85%;
+        /* Transparency Levels */
+            --background-1: rgba(19, 21, 25, 0.2); /* For darker transparency change the 0.2 */
+            --background-2: rgba(19, 21, 25, 0.4); /* For darker transparency change the 0.4 */
+            --background-3: rgba(19, 21, 25, 0.7); /* For darker transparency change the 0.7 */
+        /* Images ( Imgur is recommended ) */
+            /* Main Image */
+                --bgimage: url(https://i.imgur.com/EnL86XS.jpg);
+            /* Popouts Image */
+                --bdimage: url(https://i.imgur.com/YN3Enin.gif);
+            /* Welcome Image */ 
+                --welcomenewserverimage: url(https://i.imgur.com/k5HvZDW.png);
+            /* Home Logo Image */
+                --home-logo: url(https://i.imgur.com/m8PRlB8.png);
+    }
+/* End Of Config */
+
 /* ANIMATIONS */
     @keyframes fadeInRight { 0% { opacity: 0; transform: translateX(20px); } 100% { opacity: 1; transform: translateX(0); } }
     @keyframes opacity { from { opacity: 0; } }
