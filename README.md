@@ -1,2 +1,2 @@
-# Lonley
-Lonley - A Discord Theme For Us Lonley Peeps
+# Lonely
+Lonely - A Discord Theme For Us Lonely Peeps
