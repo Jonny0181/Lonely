@@ -5,8 +5,6 @@
  * @description A Discord Theme for us lonley peeps.
 */
 
-@import url(https://raw.githubusercontent.com/JonnyBoy2000/Lonley/master/src/lonley_import.theme.css);
-
 /* Main Config */
     :root {
         /* Non Transparent Accent Color */
@@ -38,3 +36,5 @@
                 --home-logo: url(https://i.imgur.com/m8PRlB8.png);
     }
 /* End Of Config */
+
+@import url(https://raw.githubusercontent.com/JonnyBoy2000/Lonley/master/src/lonley_import.theme.css);
