@@ -186,15 +186,20 @@
     .theme-dark .xboxSectionIcon-1Y8MqF { color: var(--xbox-green) !important; }
     .emptyCard-1RJw8n { background: var(--background-3) !important; }
 /* Theme Name */
-    .typeWindows-1za-n7:after {
-      content: "Lonley - By Jonny";
-      font-weight: 200;
-      font-size: 14px;
-      font-variant: small-caps;
-      color: var(--accent-color);
-      position: absolute;
-      top: .2%;
-      right: 93%;
+    .typeWindows-1za-n7 {position:relative;}
+    .typeWindows-1za-n7::after {
+        content: "Lonley - By Jonny";
+        font-weight: 200;
+        font-size: 14px;
+        font-variant: small-caps;
+        color: var(--accent-color);
+        position: absolute;
+        width:fit-content;
+        left: 0;
+        top:0;
+        height:100%;
+        display:flex;
+        align-items:center;
     }
 /* Login Page */
     .authBox-hW6HRx { background-color: var(--background-3) !important; }
