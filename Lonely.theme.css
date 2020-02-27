@@ -9,32 +9,40 @@
 
 /* Main Config */
     :root {
-        /* Non Transparent Accent Color */
-            --accent-color: rgb(106, 139, 230);
-        /* Transparent Accent Color */
-            --accent-color-transparent: rgba(106, 139, 230, 0.20);
-        --xbox-green: rgb(14, 122, 13);
-        --HSL-size: 35px; /* Size of Server Icons */
-        --HSL-spacing: 10px; /* Space between servers */
-        --HSL-roundness: 5px; /* Server non hovered and selected */
-        --HSL-roundnessHover: 20%; /* Server hovered */
-        --image-blur-amount: 10px; /*Set to 0 to disable */
-        --button-jiggle-time: 500ms; /*Set to 0 to disable */
-        --status-brightness: .6; /* Set to 1 for full brightness */
-        --settings-width: 60%;
-        --settings-height: 85%;
+        /* Your colors */
+            --accent-color: rgb(106, 139, 230); /* Non Transparent Accent Color */
+            --accent-color-transparent: rgba(106, 139, 230, 0.20); /* Transparent Accent Color */
+        /* Font */
+            --font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        /* Server List Settings */
+            --HSL-size: 35px; /* Size of Server Icons */
+            --HSL-spacing: 10px; /* Space between servers */
+            --HSL-roundness: 10px; /* Server non hovered and selected */
+            --HSL-roundnessHover: 15px; /* Server hovered */
+        /* Chat images blur */
+            --image-blur-amount: 10px; /*Set to 0 to disable */
+        /* Button hover animations */
+            --button-jiggle-time: 500ms; /*Set to 0 to disable */
+        /* Uses Online status */
+            --status-brightness: 0.6; /* Set to 1 for full brightness */
+        /* Settings windows */
+            --settings-width: 60%;
+            --settings-height: 85%;
+        /* Set both channels or members the same value to disable open and close */
+            --channels-closed: 9vw;
+            --channels-opened: 13vw;
+            --members-closed: 8vw;
+            --members-opened: 15vw;
+        --button-width: 28px; /* This will be effected my the --channels-closed value above */
         /* Transparency Levels */
-            --background-1: rgba(19, 21, 25, 0.2); /* For darker transparency change the 0.2 */
-            --background-2: rgba(19, 21, 25, 0.4); /* For darker transparency change the 0.4 */
-            --background-3: rgba(19, 21, 25, 0.7); /* For darker transparency change the 0.7 */
+            /* For a darker transparency change the last value in () Example: 0.2 to 0.4 */ 
+            --background-1: rgba(19, 21, 25, 0.2);
+            --background-2: rgba(19, 21, 25, 0.4);
+            --background-3: rgba(19, 21, 25, 0.7);
         /* Images ( Imgur is recommended ) */
-            /* Main Image */
-                --bgimage: url(https://i.imgur.com/EnL86XS.jpg);
-            /* Popouts Image */
-                --bdimage: url(https://i.imgur.com/YN3Enin.gif);
-            /* Welcome Image */ 
-                --welcomenewserverimage: url(https://i.imgur.com/k5HvZDW.png);
-            /* Home Logo Image */
-                --home-logo: url(https://i.imgur.com/m8PRlB8.png);
+                --bgimage: url(https://i.imgur.com/EnL86XS.jpg); /* Main Image */
+                --bdimage: url(https://i.imgur.com/YN3Enin.gif); /* Popouts Image */
+                --welcomenewserverimage: url(https://i.imgur.com/k5HvZDW.png); /* Welcome Image */
+                --home-logo: url(https://i.imgur.com/m8PRlB8.png); /* Home Logo Image */
     }
 /* End Of Config */
